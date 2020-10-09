@@ -1,3 +1,5 @@
+<?php echo "testando";?>
+
 <!doctype html>
 <html lang="en">
 
@@ -12,6 +14,8 @@
 </head>
 
 <body>
+
+<a href="index.html"> link para chegar la </a>
 
     <div class="container">
 
