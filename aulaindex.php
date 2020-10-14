@@ -1,3 +1,5 @@
+<?php echo "testando";?>
+
 <!doctype html>
 <html lang="en">
 
@@ -8,17 +10,20 @@
 
     <link rel="stylesheet" href="css/bootstrap.css">
 
-    <title>Hello, oiiiworld!</title>
+    <title>Hello, world!</title>
 </head>
 
 <body>
+
+<a href="index.html"> link para chegar la </a>
 
     <div class="container">
 
         <div class="row">
 
-            <div class="col bg-danger">
-                <h1>H</h1>
+           
+            <div class="col-6 bg-danger">
+                <h1>alooooo</h1>
             </div>
 
             <div class="col" style="background-color: chartreuse;">
@@ -32,18 +37,18 @@
             <div class="col-6 bg-warning">
                 <table>
                     <tr>
-                        <td>funcionando</td> 
+                        <td>aprendendo</td> 
+                    </tr>
+                </table>
+            </div>
+            <div class="col-6 bg-warning">
+                <table>
+                    <tr>
+                        <td>aprendendo</td> 
                     </tr>
                 </table>
             </div>
 
-            <div class="col" style="background-color: chartreuse;">
-                <h1>H</h1>
-            </div>
-
-            <div class="col bg-danger">
-                <h1>H</h1>
-            </div>
 
             <div class="col" style="background-color: chartreuse;">
                 <h1>H</h1>
@@ -59,6 +64,14 @@
 
             <div class="col bg-danger">
                 <h1>H</h1>
+            </div>
+
+            <div class="col" style="background-color: chartreuse;">
+                <h1>H</h1>
+            </div>
+
+            <div class="col bg-danger">
+                <h1>perigo azul</h1>
             </div>
 
             <div class="col" style="background-color: chartreuse;">
