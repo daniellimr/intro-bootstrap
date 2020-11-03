@@ -1,0 +1,52 @@
+ /* Corpo da página html*/
+ body{
+
+    font-family: roboto;    /* Fonte padrão será roboto */
+    margin: 0;              /* Não haverá margens entre o conteúdo e a página*/
+}
+
+
+/* Divisão do topo da página */
+.topo{
+   background-color: rgba(206, 46, 33, 1);    /* Vermelho escuro no padrão rgb */
+   height: 100px;                                /* altura de 100 pixels */
+   width: 100%;                                  /* ocupará 100% da página na horizontal  */
+
+   font-size: 15px;     /* fonte de 19 pixels*/
+   color: #fff;       /* cod do texto branca*/ 
+   text-align: right;
+
+}
+
+
+/* Texto promocional */
+#texto-promocional {
+   height: 80px;        /* altura da divisão em 80  pixels */ 
+   width: 50%;           /* irá preencher 50% da largura da tela*/
+   text-align: left;     /* alinhamento do texto ao centro */
+   padding-top: 20px;     /* distancia de 20 pixels para o topo da página */
+
+}
+
+/* Classe texto 1*/
+#text1tit {
+   font-weight: bold;   /* negrito*/
+   line-height: 0px;   /* linhas de 20 pixels*/
+   font-size: 23px;     /* fonte de 19 pixels*/
+   color: #fff;       /* cod do texto branca*/ 
+   text-align: right;
+}
+
+
+
+
+
+h1 { 
+   font-weight: bold;   /* negrito*/
+   color: RED; 			        /* cor do texto      casos especiais background-color: #f00;   */
+   background-color: acqua; 	      /* cor de fundo        */
+   border-color: teal; 		    /* cor da borda        */
+   /* font-style: italic;  */		          /* fonte em italic     */
+   text-transform: uppercase;      /* texto em maisculo   */
+   text-align: center;
+}

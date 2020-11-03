@@ -1,0 +1,123 @@
+ /* Corpo da página html*/
+ body{
+     font-family: roboto;    /* Fonte padrão será roboto */
+     margin: 0;              /* Não haverá margens entre o conteúdo e a página*/
+ }
+
+
+ /* Divisão do topo da página */
+ .topo{
+    background-color: rgba(241, 245, 243, 0.89);    /* Vermelho escuro no padrão rgb */
+    height: 150px;                                    /* altura de 100 pixels */
+    width: 100%;                                      /* ocupará 100% da página na horizontal  */
+}
+
+
+ /* Divisão dentro da parte superior */
+ .conteudo-topo{
+    height: 80px;                                /* terá altura de 80 pixels, 20 a menos que a div pai */
+    padding:  0 80px 0 80px;                     /* ficará colada na parte superior e inferior terá 80 pixels de distância entre as duas laterais  */
+}
+
+/* QDO COLOQUEI ESSE AQUI O TITULO SUBIU    As diviões filhas da div conteúd-topo e contrate */
+.conteudo-topo > div, #contrate > div {
+
+    float: left;    /* Ficarão uma flutuando ao lado da outra */
+}
+
+
+/* Divião da logo da tv por assinatura mexe nas posicoes da figura */
+#logo {
+    width: 144px;        /* largura de 144 pixels */ 
+    padding: 50px 100 0;   /* 30 pixels de recuo a partir do topo da página 2 parametro muda p frente a figura*/
+}
+
+
+
+/* Divião onde ficará a imagem */
+#logo-claro {
+    /* Como fundo teremos a imagem logoClaro.png que está dentro da pasta imagem*/
+    /*a imagem não repetirá no fundo horizontalmente nem verticalmente*/
+    
+/*    background: url("../Lider.bmp") no-repeat;  */
+    width: 144px;        /* largura de 144 pixels */ 
+    height: 88px;      /* altura de 88 pixels diminui o tamanho da figura */
+}
+
+/* Texto promocional */
+#texto-promocional {
+    height: 80px;        /* altura da divisão em 80  pixels */ 
+    width: 50%;           /* irá preencher 50% da largura da tela*/
+    text-align: center;     /* alinhamento do texto ao centro */
+    padding-top: 20px;     /* distancia de 20 pixels para o topo da página */
+
+}
+
+
+/* Classe texto 1*/
+.texto1 {
+    font-weight: bold;   /* negrito*/
+    line-height: 20px;   /* linhas de 20 pixels*/
+    font-size: 15px;     /* fonte de 19 pixels*/
+    color: forestgreen;       /* cod do texto branca*/ 
+   /* text-align: right;*/
+}
+
+/* Classe texto 2*/
+.texto2 {
+    font-weight: bold;   /* negrito*/
+    line-height: 20px;   /* linhas de 20 pixels*/
+    font-size: 19px;     /* fonte de 19 pixels*/
+    color: #fbd710;       /* cod do texto em padrão hexadecimal do topo da página */ 
+    text-align: right;
+}
+
+
+#telefone {
+    display: inline-block;
+    padding: 0 20px 0 0;
+    /*text-align: right;*/
+    }
+
+/* Divisão para contratação */
+#contrate {
+    height: 80px;        /* altura de 80  pixels */ 
+    text-align: center;    /* alinhamento do texto á direita */
+    padding-top: 0px;     /* distancia de 20 pixels para o topo da página */
+
+}
+
+
+/* Todos os botões da página  DEIXOU OS BOTÕES COLORIDOS*/
+button {
+    border: 0;                               /* sem borda*/
+    display: inline-block;                   /* posicionados um ao lado do outro*/ 
+    border-radius: 0;                        /* sem bordas arredondadas */
+    padding: 10px 15px;                      /* recuo para o conteudo do texto neles */
+    border-bottom: 5px solid #fb1010;     /* cc66aa cria borda de 5pixels amarelo escuro */
+    font-weight: bold;              
+
+}
+
+/* botões dentro da div contate muda a cor do botao para amarelo*/
+#contrate button{
+    background-color: #fbd710;     /* cor de fundo amarela em padrão hexadecimal */
+    color: #333;                    /* cor da letra cinza escuro */
+
+}
+
+
+
+
+.planos {
+    width: 80%;
+    height: 150px;
+    border: solid;
+    border-color: black;
+    border-spacing: 0;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+

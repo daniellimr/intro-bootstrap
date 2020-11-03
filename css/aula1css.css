@@ -1,0 +1,75 @@
+
+img{
+
+    margin-top: attr(height, 100px);    /* Nao fez nada na mha imagem*/
+ 
+}
+
+h1{
+
+    font-family: arial,verdana, Sans-serif;
+}
+
+footer p{
+    
+    height: 100px;
+    text-align: center;
+    font-size: 15px;
+    color : black;
+    background-color: yellow;  /* rgb(255,0,0); */
+
+}
+
+
+p {
+    color : WHITE;        		/* cor do texto                       */
+	background-color: white;	/* cor de fundo do paragrafo          */
+    font-size: 12px;		      /* tamanho da fonte                   */
+    text-decoration: underline;
+}
+
+/* COLOQUEI ESSE AQUI E ELE CONSIDEROU O ULTIMO */
+p { font-family: Arial, Sans-serif; } 	    /* estiliza p com fonte na família especificada (valor)                 */ 
+/* p { width: 400px; } 		                  estiliza p com largura 400px                                         */ 
+p { font-size: 120%; } 		                /* estiliza p com tamanho de fonte 1.2 vezes o valor de referência      */ 
+p { background-color: orchid; } 	      /* estiliza p com fundo na cor vermelha     PEGOU ESSA ULTIMA COR       */ 
+p { height: 2em; } 		                    /* estiliza p com altura 2 vezes o valor de referência                  */
+
+
+p { 
+    color: red; 			        /* cor do texto      casos especiais background-color: #f00;   */
+    background-color: acqua; 	      /* cor de fundo        */
+    border-color: teal; 		    /* cor da borda        */
+    font-style: italic;		          /* fonte em italic     */
+    text-transform: uppercase;	      /* texto em maisculo   */
+    }
+ 
+/* muda tudo o que está acima */    
+p { 
+    border: none; 		        
+    color: black; 			 
+    background: transparent; 
+    font-family: serif;		          /* fonte em italic     */
+    font-size: 16px;	      /* texto em maisculo   */
+
+    }
+
+
+li {
+	color : black;
+	background-color: white;
+	font-size: 20px;
+}
+
+/* onde estiver no php o A dentro do LI será formatado igual p/ todos */
+li a{
+	background-color: orangered;
+}
+
+label{
+
+    color: red; 			        /* cor do texto        */
+    width: 200px;
+   
+
+} 

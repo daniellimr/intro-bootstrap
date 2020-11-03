@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta content="charset=utf-8">
+	<title>SANTOS PERFUMES</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+        
+  <link rel="stylesheet" href="css/carou.css" type="text/css"  >     
+
+  <!-- Syntax Highlighter -->
+  <link href="css/shCore.css" rel="stylesheet" type="text/css" />
+  
+  <!--<link href="css/shThemeDefault.css" rel="stylesheet" type="text/css" />
+   Demo CSS -->
+	<link rel="stylesheet" href="css/demo.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="../flexslider.css" type="text/css" media="screen" />
+
+  <!-- Modernizr -->
+  <script src="js/modernizr.js"></script>
+
+
+
+<!--  <link rel="stylesheet" href="css/perfume1.css" type="text/css"  >     -->
+
+
+</head>
+
+
+<body class="loading">
+
+
+    <!-- Divisão do topo onde ficará o menu superior -->
+    <div class="topo">   
+
+      <!-- Divisão utilizada para afastar o conteúdo das bordas do navegador -->
+       <div class="conteudo-topo">
+
+           <!-- Logo da marca de tv -->
+           <div id="logo">
+               <!-- <div id="logo-claro"></div>   --> <!-- Logomarca preencherá espaço no fundo dessa divisão -->  
+               <!-- <div id="logosantos"></div>   -->
+           </div>
+       
+           <!-- Texto promocional -->
+           <div id="texto-promocional" class="texto1">SANTOS<br><br>PERFUMES IMPORTADOS</div>
+
+           <!-- Informações para o usuário contratar o serviço -->
+           <div id="contrate">
+
+               <!-- Divisão para o telefone -->
+               <div id="telefone">
+                   <label class="texto1">Entre em contato</label><br>
+                   <label class="texto2">(32) 98807-4953</label><br>
+
+               </div>
+
+               <div>
+               <!-- <a href="Telalogin.php">Faça seu Login</a>  -->
+               <a href="Telalogin.php">Faça seu Login</a>  
+               </div>
+
+               <!-- Divisão para o botão -->
+
+               <div id="botao">
+                   <button onclick="Cadastro()" >Cadastrar</button>
+                   <button onclick="Conosco()" >Fale Conosco</button>
+                  <!-- <input type="button" value="cancelar" onClick="Nova()"> -->
+                  <!-- <button>Acesse o chat</button> -->
+               </div>
+         
+           </div>
+
+           
+       </div>
+
+
+   </div>
+
+
+
+  <div id="container" class="cf">
+
+    <header role="navigation">
+<!--
+        <li>
+            <img src="imagem/onemillion.jpg" />
+            </li>
+    -->  
+    </header>
+
+	<div id="main" role="main">
+      <section class="slider">
+        <div class="flexslider carousel">
+          <ul class="slides">
+            <li>
+  	    	    <img src="imagem/onemillionpuro.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="imagem/invictuspuro.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="imagem/azzaropuro.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="imagem/212mennycpuro.jpg" />
+  	    		</li>
+            <li>
+  	    	    <img src="imagem/212sexypuro.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="imagem/2.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="imagem/2.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="imagem/2.jpg" />
+  	    		</li>
+            <li>
+  	    	    <img src="imagem/2.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="imagem/1.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="imagem/2.jpg" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="imagem/1.jpg" />
+  	    		</li>
+          </ul>
+        </div>
+      </section>
+
+
+      
+<!-- <label  align="center">Confira nossos preços</label>  -->
+    <!-- div muda de linha a figura -->
+
+    
+        <img src="imagem/onemillion.jpg" />
+        
+        <img src="imagem/invictus.jpg" />
+    
+        <img src="imagem/azzaro.jpg" />
+        
+        <img src="imagem/212mennyc.jpg" />
+    
+        <img src="imagem/212sexy.jpg" />
+    
+    <div></div>
+    
+    <p align="center">
+        <img src="imagem/onemillion.jpg" />
+        
+        <img src="imagem/invictus.jpg" />
+    
+        <img src="imagem/azzaro.jpg" />
+        
+        <img src="imagem/212mennyc.jpg" />
+    
+    </p>
+
+
+
+
+  </div>
+
+
+
+    
+
+
+  <!-- Sem isso nao tem carousel-->>
+  <!-- jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+
+  <!-- FlexSlider -->
+  <script defer src="../jquery.flexslider.js"></script>
+
+  <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        animationLoop: true,             //-- estava false
+        itemWidth: 300,                  //-- tamanho das fotos 210
+        itemMargin: 50,                  /* altera a quantidade de imagem */
+        pausePlay: true,
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+
+  <!-- Syntax Highlighter -->
+  <script type="text/javascript" src="js/shCore.js"></script>
+  <script type="text/javascript" src="js/shBrushXml.js"></script>
+  <script type="text/javascript" src="js/shBrushJScript.js"></script>
+
+  <!-- Optional FlexSlider Additions -->
+  <script src="js/jquery.easing.js"></script>
+  <script src="js/jquery.mousewheel.js"></script>
+  <script defer src="js/demo.js"></script>
+
+  
+
+  
+  <script>
+
+    function Cadastro(){
+
+        location.href="cadastro.php"
+        
+    }
+    
+    function Conosco(){ 
+        
+        location.href="faleconosco.php"
+
+    }
+</script>
+
+        
+
+<p align="center">
+    Copyright @2020 - DMR - "Todos os direitos reservados"
+</p>
+<div class="roda">   
+
+</body>
+</html>
